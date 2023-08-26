@@ -1,0 +1,19 @@
+div[style] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div[style] a {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+div[style] a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}

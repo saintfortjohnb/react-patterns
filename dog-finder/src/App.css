@@ -1,0 +1,81 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Dog list styles */
+.dog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dog-card {
+  flex: 1;
+  min-width: 200px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+}
+
+.dog-card:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dog-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Dog details styles */
+.dog-details {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.dog-details img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.fact-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.fact-list li {
+  margin-bottom: 10px;
+}
